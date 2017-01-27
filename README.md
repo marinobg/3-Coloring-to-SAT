@@ -1,1 +1,0 @@
-# 3-Coloring-to-SAT

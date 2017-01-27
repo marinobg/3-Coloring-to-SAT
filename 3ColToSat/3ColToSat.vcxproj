@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3D397E8D-8FF2-4325-8E1B-1785FE88F477}</ProjectGuid>
+    <ProjectGuid>{2A157626-F8F7-4DE0-AD59-ACD76BEC4C4B}</ProjectGuid>
     <RootNamespace>My3ColToSat</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>

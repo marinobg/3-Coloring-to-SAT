@@ -15,8 +15,4 @@ int main() {
 	for (int i = 0; i < nVer; i++) vertices.insert(string(1, (char(i + 'A')))); //Inserting vertices into the set, vertcies labeled alphabetically from A
 
 
-	for (auto it = vertices.begin(); it != vertices.end(); it++) {
-		cout << *it << endl;
-	}
-	system("PAUSE");
 }
