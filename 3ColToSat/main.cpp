@@ -19,7 +19,7 @@ int main() {
 	while (true) {
 		string v1, v2;
 		cout << "Enter connecting edges, space between the edges. Enter '0' number to finish: ";
-		cin >> v1, v2;
+		cin >> v1 >> v2;
 		if (v1 == "0") break;
 		edges[v1].insert(v2); //Add edge from e1 to e2
 		edges[v2].insert(v1); //Add edge from e2 to e1
