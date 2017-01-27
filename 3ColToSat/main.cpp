@@ -24,4 +24,9 @@ int main() {
 		edges[v1].insert(v2); //Add edge from e1 to e2
 		edges[v2].insert(v1); //Add edge from e2 to e1
 	}
+
+	for (auto it = vertices.begin(); it != vertices.end(); it++) {
+		string ver = *it; //vertice
+		cout << "(" << ver << "_r v " << ver << "_g v " << ver << "_b)" << "'and'" << endl; //Fix 'and'
+	}
 }
