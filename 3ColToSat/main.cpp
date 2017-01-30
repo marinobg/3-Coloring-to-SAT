@@ -27,6 +27,10 @@ int main() {
 
 	for (auto it = vertices.begin(); it != vertices.end(); it++) {
 		string ver = *it; //vertice
-		cout << "(" << ver << "_r v " << ver << "_g v " << ver << "_b)" << "'and'" << endl; //Fix 'and'
+		cout << "(" << ver << "_r v " << ver << "_g v " << ver << "_b)" << " ^ "; //Available colors for the node
+		cout << "(" << char(170) << ver << "_r v " << char(170) << ver << "_g)" << " ^ "; //If color blue, cannot be red or green
+		cout << "(" << char(170) << ver << "_r v " << char(170) << ver << "_b)" << " ^ "; //If color green, cannot be red or blue
+		cout << "(" << char(170) << ver << "_g v " << char(170) << ver << "_b)" << " ^ " << endl; //If color red, cannot be green or blue
 	}
+	system("PAUSE");
 }
