@@ -1,3 +1,4 @@
+#include "vertex.h"
 #include<iostream>
 #include<set>
 #include<string>
