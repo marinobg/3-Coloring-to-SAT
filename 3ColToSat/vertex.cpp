@@ -1,4 +1,5 @@
 #include "vertex.h"
+#include<cstring>
 
 using namespace std;
 
@@ -24,11 +25,17 @@ void Vertex::setColor(Color col) {
 	color = col;
 }
 
-void Vertex::insertEdge(Vertex ver2) {
+void Vertex::insertEdge(Vertex &ver2) {
 	edges.insert(ver2); //Inserting vertex2 to the list of edges for this vertex
-	ver2.insertEdge(*this); //Insert this vertex to the list of edges for vertex2
+	ver2.edges.insert(*this); //Insert this vertex to the list of edges for vertex2
 }
 
 bool operator <(const Vertex &lhs, const Vertex & rhs){
 	if (lhs.index != rhs.index) return lhs.index < rhs.index;
+}
+
+//Get index for the specific element as an int (e.g A=0, B=1, C=2 etc.)
+int Vertex::getindex()const {
+	const char *cstr = index.c_str();
+	return *cstr - int('A');
 }
