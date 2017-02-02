@@ -39,3 +39,11 @@ int Vertex::getindex()const {
 	const char *cstr = index.c_str();
 	return *cstr - int('A');
 }
+
+string Vertex::getVertexName()const {
+	return index;
+}
+
+set<Vertex> Vertex::getEdges()const {
+	return edges;
+}

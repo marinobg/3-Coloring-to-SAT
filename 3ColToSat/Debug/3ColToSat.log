@@ -1,7 +1,4 @@
-﻿  vertex.cpp
-  main.cpp
-c:\users\marinobråthen\dropbox\prosjektoppgaven\3-coloring-to-sat\3coltosat\main.cpp(18): warning C4018: '<': signed/unsigned mismatch
-  Generating Code...
-c:\users\marinobråthen\dropbox\prosjektoppgaven\3-coloring-to-sat\3coltosat\vertex.cpp(35): warning C4715: 'operator<': not all control paths return a value
+﻿  main.cpp
+c:\users\marinobråthen\dropbox\prosjektoppgaven\3-coloring-to-sat\3coltosat\main.cpp(17): warning C4018: '<': signed/unsigned mismatch
   3ColToSat.vcxproj -> C:\Users\MarinoBråthen\Dropbox\Prosjektoppgaven\3-Coloring-to-SAT\3ColToSat\Debug\3ColToSat.exe
   3ColToSat.vcxproj -> C:\Users\MarinoBråthen\Dropbox\Prosjektoppgaven\3-Coloring-to-SAT\3ColToSat\Debug\3ColToSat.pdb (Full PDB)

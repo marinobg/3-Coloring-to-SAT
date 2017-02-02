@@ -19,6 +19,8 @@ public:
 	void insertEdge(Vertex &ver2);
 	void setColor(Color col);
 	int getindex() const;
+	std::string getVertexName() const;
+	std::set<Vertex> getEdges()const;
 
 	friend bool operator < (const Vertex &lhs, const Vertex & rhs);
 };
